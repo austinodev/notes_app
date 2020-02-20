@@ -2,36 +2,38 @@ import styled from "styled-components";
 
 export const AuthContainer = styled.View`
   padding: 20px;
-  margin: auto 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  background: #595C6E;
 `;
 
 export const LoginWrapper = styled.View`
-  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 20px;
 `;
 
 export const SignupWrapper = styled.View`
-  height: 250px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 `;
 
 export const Input = styled.TextInput`
+  color: #fff !important;
   padding: 20px 20px;
+  border: 1px solid #595C6E;
   font-size: 20px;
-  background: aliceblue;
-  border-radius: 5px;
+  background: #686C80;
 `;
 
 export const Btn = styled.TouchableOpacity`
-  width: 100px;
-  margin: 0 auto;
-  background: dodgerblue;
+  max-width: 300px;
+  padding: 14px 20px;
+  background: #66D977;
+  margin: 40px 60px;
   text-align: center;
-  padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 40px;
 `;
